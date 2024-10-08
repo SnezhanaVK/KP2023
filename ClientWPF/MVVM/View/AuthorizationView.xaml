@@ -1,0 +1,57 @@
+﻿<Window x:Class="ClientWPF.MVVM.View.AuthorizationView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientWPF.MVVM.View"
+        xmlns:components="clr-namespace:ClientWPF.MVVM.Components"
+        xmlns:viewModel="clr-namespace:ClientWPF.MVVM.ViewModel"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Login" Height="450" Width="350" 
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen" 
+        FontFamily="Segoe UI Emoji"
+        Icon="../../Images/Icons/icon.ico"
+        WindowStyle="None"
+        MouseDown="Window_MouseDown">
+    <Window.DataContext>
+        <viewModel:AccountViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Rectangle Height="280" VerticalAlignment="Top">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5 0">
+                    <GradientStop Color="#7340ff"
+                                  />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Width="280" Height="200" VerticalAlignment="Bottom" Margin="0 80" RadiusY="10" RadiusX="10" Fill="#1bd3ff">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15" Direction="0" RenderingBias="Quality" ShadowDepth="1" Color="Gray"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Grid VerticalAlignment="Bottom" Margin="35,80" Height="200">
+            <Label Content="Вход" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5" Foreground="#F6F4FB" FontSize="18"/>
+            <StackPanel VerticalAlignment="Top" Margin="15 40 15 0">
+                <Label Content="Имя пользователя"/>
+                <TextBox FontFamily="Champagne &amp; Limousines" FontSize="18" Padding="3" x:Name="loginField" 
+                         Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" BorderBrush="AliceBlue" Background="#e9e9e9" Width="242" Height="35"/>
+                <Label Content="Пароль"/>
+                <components:BindablePasswordBox Grid.Column="1" Password="{Binding Password}" Padding="3" Height="41" Width="249"/>
+            </StackPanel>
+        </Grid>
+        <Button Cursor="Hand" Width="160" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,65" Content="Вход" Background="#7340ff" x:Name="loginButton" Foreground="White" Padding="7"
+                Command="{Binding SignIn}" Click="loginButton_Click"/>
+        <Button Cursor="Hand" Width="160" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,405,0,0" Content="Регистрация." Background="Transparent" x:Name="registerButton" BorderBrush="{x:Null}" Foreground="DarkBlue" Padding="7"
+                Command="{Binding SignUp}" Click="registerButton_Click"/>
+        <Image Source="C:\Users\User\Downloads\FinalProductShop-main\FinalProductShop-main\ClientWPF\Images\free-icon-home-6800345.png" Width="100" Height="100" VerticalAlignment="Top" Margin="30"/>
+        <Button VerticalAlignment="Top" HorizontalAlignment="Right" BorderThickness="0" Margin="6" Click="crossButton_Click" x:Name="crossButton" Width="25" Height="25">
+            <Button.Background>
+                <ImageBrush ImageSource="../../Images/Icons/close-icon.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClientWPF.Core.ObservableObject" Collapsed="true">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\ObservableObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClientWPF.MVVM.Components.BindablePasswordBox" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAgAAAAAAAAAAAAAAAAAAAAABBCAAAAAAIAAAA=</HashCode>
+      <FileName>MVVM\Components\BindablePasswordBox.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.MVVM.View.AddProductView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAFAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\View\AddProductView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.MVVM.View.AuthorizationView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAgAAABAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>MVVM\View\AuthorizationView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.MVVM.View.CategoryView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\View\CategoryView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.MVVM.View.HomeView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\View\HomeView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.MVVM.View.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>MVVM\View\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.MVVM.View.ProducerView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\View\ProducerView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.MVVM.View.ProductDetailsView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAgACAAAAAAAEAAAAAAAAAAAAAAAJAAAAAAA=</HashCode>
+      <FileName>MVVM\View\ProductDetailsView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.MVVM.View.ProductsView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\View\ProductsView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.MVVM.View.ProfileView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\View\ProfileView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.MVVM.View.RegistrationView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACAAgAAABAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>MVVM\View\RegistrationView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.MVVM.View.UsersView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\View\UsersView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.MVVM.ViewModel.AccountViewModel" Collapsed="true">
+    <Position X="18.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwQgICCAAAAACAEAAAAAAAQAKAgAAAACAAAAAAgAAAA=</HashCode>
+      <FileName>MVVM\ViewModel\AccountViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientWPF.MVVM.ViewModel.AddProductViewModel" Collapsed="true">
+    <Position X="10.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>TAAUAAQAQSAgGAAAAgAIQAQAAFBYEAAAAIAAgAEEAEc=</HashCode>
+      <FileName>MVVM\ViewModel\AddProductViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientWPF.MVVM.ViewModel.CategoryViewModel" Collapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAEEgAAIAQAGAAAAAAAAAAAAAQAFBAAAASAAAIEAAI=</HashCode>
+      <FileName>MVVM\ViewModel\CategoryViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientWPF.MVVM.ViewModel.HomeViewModel" Collapsed="true">
+    <Position X="8.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAQAAIAAAAAAAoAABAAAAAAAQ=</HashCode>
+      <FileName>MVVM\ViewModel\HomeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientWPF.MVVM.ViewModel.MainViewModel" Collapsed="true">
+    <Position X="16" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YQSEQSwCkICAAAIAAEGIQcAIAAAEICAgEAAAAgAEAEA=</HashCode>
+      <FileName>MVVM\ViewModel\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientWPF.MVVM.ViewModel.ProducerViewModel" Collapsed="true">
+    <Position X="15.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAEEAAAACIAGAAAAgAAQAAAAgBQFAAKEAAAEBAEAAI=</HashCode>
+      <FileName>MVVM\ViewModel\ProducerViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientWPF.MVVM.ViewModel.ProductDetailsViewModel" Collapsed="true">
+    <Position X="12.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>TAAEAAQAARAgGAIABFgIQAQAAABQEAAAAIAAgAEEAEI=</HashCode>
+      <FileName>MVVM\ViewModel\ProductDetailsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientWPF.MVVM.ViewModel.ProductsViewModel" Collapsed="true">
+    <Position X="14" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAIUAAABQCAAGCAAAkAIQAAAAABYEAAAAAAAACEEAAc=</HashCode>
+      <FileName>MVVM\ViewModel\ProductsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientWPF.MVVM.ViewModel.ProfileViewModel" Collapsed="true">
+    <Position X="10.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQKAABAAAgABAAAIAIAFABAIAIAAAAAQAAAAA=</HashCode>
+      <FileName>MVVM\ViewModel\ProfileViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientWPF.MVVM.ViewModel.RegistrationViewModel" Collapsed="true">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABUgIAAEIAAiCAMAAQAAAIQICFgAEACCBEAAAAhIAAA=</HashCode>
+      <FileName>MVVM\ViewModel\RegistrationViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientWPF.MVVM.ViewModel.UsersViewModel" Collapsed="true">
+    <Position X="8.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAECAAIAAAAAIEAAAAAAAAAAAABAAAAIIAACQAAAA=</HashCode>
+      <FileName>MVVM\ViewModel\UsersViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientWPF.Repositories.Implementation.BankAccountsRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAQAAAAAAAAAAAABAAAAAAAAEgAA=</HashCode>
+      <FileName>Repositories\Implementation\BankAccountsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.Repositories.Implementation.CategoriesRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQABAABAAYAAAACAAAAIAAAAABAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Repositories\Implementation\CategoriesRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.Repositories.Implementation.ProducersRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAIAAIATAAQAAAgAAABAEQAAAAAAgAAAAAA=</HashCode>
+      <FileName>Repositories\Implementation\ProducersRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.Repositories.Implementation.ProductImagesRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAACACA=</HashCode>
+      <FileName>Repositories\Implementation\ProductImagesRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.Repositories.Implementation.ProductsRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAQKAIAAACIAAAAAKAAAAAAAAAAAAAAAoAQQA=</HashCode>
+      <FileName>Repositories\Implementation\ProductsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.Repositories.Implementation.UserImagesRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAACAACAAADAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Implementation\UserImagesRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.Repositories.Implementation.UsersRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAGAAAAAAAAAQAAAAAgAAEAAAEAAAA=</HashCode>
+      <FileName>Repositories\Implementation\UsersRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClientWPF.Repositories.Implementation.Manager.ModelsManager" Collapsed="true">
+    <Position X="6.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIACAAAAAAAAABAAAAAAAAEgAQEAAAAAAAAAAAgAQ=</HashCode>
+      <FileName>Repositories\Implementation\Manager\ModelsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ClientWPF.Repositories.Interfaces.IBankAccountsRepository" Collapsed="true">
+    <Position X="2.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAAAAAEgAA=</HashCode>
+      <FileName>Repositories\Interfaces\IBankAccountsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClientWPF.Repositories.Interfaces.ICategoriesRepository" Collapsed="true">
+    <Position X="4.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQABAABAAYAAAAAAAAAIAAAAABAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Repositories\Interfaces\ICategoriesRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClientWPF.Repositories.Interfaces.IProducersRepository" Collapsed="true">
+    <Position X="6.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAIAAIARAAQAAAgAAABAEQAAAAAAgAAAAAA=</HashCode>
+      <FileName>Repositories\Interfaces\IProducersRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClientWPF.Repositories.Interfaces.IProductImagesRepository" Collapsed="true">
+    <Position X="2.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACA=</HashCode>
+      <FileName>Repositories\Interfaces\IProductImagesRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClientWPF.Repositories.Interfaces.IProductsRepository" Collapsed="true">
+    <Position X="4.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAQKAIAAAAIAAAAAKAAAAAAAAAAAAAAAoAQQA=</HashCode>
+      <FileName>Repositories\Interfaces\IProductsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClientWPF.Repositories.Interfaces.IUserImagesRepository" Collapsed="true">
+    <Position X="6.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAACAACAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Interfaces\IUserImagesRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClientWPF.Repositories.Interfaces.IUsersRepository" Collapsed="true">
+    <Position X="2.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAEAAAAAAAAAQAAAAAgAAEAAAEAAAA=</HashCode>
+      <FileName>Repositories\Interfaces\IUsersRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

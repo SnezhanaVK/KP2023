@@ -1,0 +1,63 @@
+﻿<UserControl x:Class="ClientWPF.MVVM.View.CategoryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ClientWPF.MVVM.View"
+             mc:Ignorable="d" d:DesignWidth="800"
+             Loaded="UserControl_Loaded" Height="737">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <WrapPanel>
+            <TextBlock Text="Упраление категориями"
+                       Foreground="White"
+                       FontSize="30"
+                       HorizontalAlignment="Left"
+                       Margin="5 10"/>
+        </WrapPanel>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.8*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Grid.RowSpan="2" VerticalAlignment="Center" RenderTransformOrigin="0.239,0.616" Margin="10,10,10,0">
+                <StackPanel  Margin="0 70 0 0">
+                    <TextBlock Text="Имя категорий:" Foreground="White" FontSize="20" HorizontalAlignment="Center"/>
+                    <TextBox x:Name="categoryName" Text="{Binding SelectedCategory.Name}" Margin="0 10 0 0" FontSize="15pt" Width="300"/>
+                </StackPanel>
+
+                <Button Cursor="Hand" Command="{Binding SaveChangedCategory}" Style="{StaticResource CustomButtonTemplate}" Margin="0 20" Width="250" Height="40" Content="Изменить категорию " Click="Button_Click"/>
+                <Button Cursor="Hand" Command="{Binding DeleteSelectedCategory}" Style="{StaticResource CustomButtonTemplate}" Background="#ff3a31"  Width="250" Height="40" Content="Удалить категорию"/>
+            </StackPanel>
+            <TextBox 
+                Grid.Column="1"
+                Width="250"
+                Margin="0 20 0 0"
+                Height="40"
+                VerticalAlignment="Top"
+                FontSize="18"
+                Style="{StaticResource ModernTextBox}"/>
+            <ListBox Grid.Row="1" Grid.Column="1" x:Name="categoriesList" Margin="5 0"
+                     ItemsSource="{Binding Categories, UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="Name" VerticalAlignment="Center"
+                     FontSize="20" SelectedItem="{Binding SelectedCategory}" MinHeight="395" Background="#213349" Foreground="FloralWhite"/>
+            <StackPanel Grid.Row="2">
+                <TextBlock Text="Добовление новой категории:" Foreground="White" HorizontalAlignment="Center" FontSize="20"/>
+                <StackPanel>
+                    <TextBox x:Name="newCategoryName" Width="300" FontSize="15pt" Margin="0 10 0 0" Text="{Binding NewNameCategory, UpdateSourceTrigger=PropertyChanged}"/>
+                </StackPanel>
+                <Button Cursor="Hand" Command="{Binding AddCategory}" Style="{StaticResource CustomButtonTemplate}" Margin="0 20" Width="250" Height="40" Content=" Добавить категорию"/>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="1">
+                <Image Source="C:\Users\User\Downloads\FinalProductShop-main\FinalProductShop-main\ClientWPF\Images\categorization.png" Margin="0 10 0 0" Width="237" Stretch="Uniform" Height="182"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>
